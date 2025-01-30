@@ -6,7 +6,7 @@ function doGet(e) {
 }
 
 function checkLogin(username, password) {
-  var url = 'https://docs.google.com/spreadsheets/d/1O-pELez2S2kUoJTgOaQdSib1cf2ydPzhgZDYzBZohmA/edit#gid=0';
+  var url = 'https://docs.google.com/spreadsheets/d/10Rix33so-7r2HXUk71OE6FV4QeGp3RLekeVHpslfrjg/edit';
   var ss= SpreadsheetApp.openByUrl(url);
   var webAppSheet = ss.getSheetByName("Users");
   var getLastRow =  webAppSheet.getLastRow();
